@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --primary-color: #1F2937;
+    
+}
+
+.hero{
+    background-color: var(--primary-color);
+    padding: 0 80px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 28px 8px 28px;
+
+}
+
+.footer{
+    background-color: var(--primary-color);
+}
+.menu{
+    display: flex;
+    color: white;
+    /* margin-bottom: 80px; */
+}
+.hero-content{
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+    
+}
+.hero-title{
+    font-size: 48px;
+    font-weight:800;
+    color: #F9F8FA;
+    margin-bottom: 38px;
+}
+.secondary-text{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.btn{
+    background-color: #3882FB;
+    border-radius: 8px;
+    padding: 8px 22px;
+    border: none;
+    outline: none;
+    margin-top: 38px;
+    color: white;
+
+}
+.img{
+    height: 100%;
+    width: 800px;
+}
+li{
+    list-style: none;
+    padding: 8px;
+}
+
+.logo{
+    color: #F9F8FA;
+    font-size: 24px;
+    
+}
+.sec2-title{
+    text-align: center;
+    padding: 40px 0;
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+    border: 2px solid #3882FB;;
+    border-radius: 4px;
+    margin-bottom: 4px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+
+}
+.box-div{
+    height: 140px;
+    width: 140px;
+    margin: 0 12px;
+}
+.img-txt{
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+}
+.qoute-sec{
+    background-color: #E5E7EB;
+    margin-top: 80px;
+    padding: 180px ;
+
+}
+
+.qoute{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    color: #1F2937;
+
+}
+.thor{
+    font-weight: bold;
+    text-align: right;
+
+}
+.popup{
+    padding: 20px 180px;
+
+}
+.blu-box{
+    background-color: #3882FB;
+    height: 140px;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 48px;
+    color:  white;
+}
+.btn2{
+    background-color: #3882FB;
+    border-radius: 8px;
+    padding: 12px 18px;
+    outline: none;
+    margin-top: 38px;
+    color: white;
+    border: 1px solid white;
+}
+.footer{
+    background-color: var(--primary-color);
+    padding: 24px 0;
+    color: white; 
+    text-align: center;
+}
